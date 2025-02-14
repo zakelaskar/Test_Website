@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Test_Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - menu: 
+          - href: https://quarto.org/docs/websites/
+            text: "Quarto Docs"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
